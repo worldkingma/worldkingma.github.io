@@ -34,18 +34,11 @@ ssh-keygen -t rsa -C "worldkingma@gmail.com"
 > 如果出现光标闪烁,接着连续点击三下回车
 
 
-```id_rsa```是秘钥
-
-
-```id_rsa_pub```是公钥
-
+```id_rsa```是秘钥,```id_rsa_pub```是公钥
 
 - 拷贝公钥t添加到```GitHub```>```settings```>```SSH and GPK keys```>点击```New SSH key```
 
-
 ![添加SSH key 示例图片](https://github.com/worldkingma/worldkingma.github.io/blob/master/assets/images/article/2017-09-24_20h33_25.png)
-
-
 
 - 测试与远程仓库的连接状态
 
@@ -70,15 +63,12 @@ ssh -T git@github.com
 
     [极客学院翻译 - 中文版本指南][5]
 
-    ```GitHub Pages```为了提供对```HTML```内容的支持，选择了[Jekyll][2]作为模板系统，[Jekyll][2]是一个强大的静态模板系统，作为个人博客使用，基本上可以满足要求，也能保持管理的方便。
-
-
+    ```GitHub Pages```为了提供对```HTML```内容的支持，选择了[Jekyll][2]作为模板系统，[Jekyll][2]是一个强大的静态模板系统，作为个人博客使用，基本上可以满足要求，也能保持管理的方便-
 
     ```Jekyll```是一种简单的、适用于博客的、静态网站生成引擎。它使用一个模板目录作为网站布局的基础框架，支持```Markdown```、```Textile```等标记语言的解析，提供了模板、变量、插件等功能，最终生成一个完整的静态```Web```站点。说白了就是，只要安装```Jekyll```的规范和结构，不用写```html```，就可以生成网站。
 
 
-    - ```Jekyll```的核心其实就是一个文本的转换引擎，用你最喜欢的标记语言写文档，可以是```Markdown```、```Textile```或者```HTML```等等，再通过```layout```将文档拼装起来，根据你设置的```URL```规则来展现，这些都是通过严格的配置文件来定义，最终的产出就是```web```页面。
-
+    ```Jekyll```的核心其实就是一个文本的转换引擎，用你最喜欢的标记语言写文档，可以是```Markdown```、```Textile```或者```HTML```等等，再通过```layout```将文档拼装起来，根据你设置的```URL```规则来展现，这些都是通过严格的配置文件来定义，最终的产出就是```web```页面。
 
     ```
         |-- _config.yml保存配置数据,在页面模板中使用site.可以应用.

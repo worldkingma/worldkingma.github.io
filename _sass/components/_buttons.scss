@@ -15,7 +15,7 @@
   -webkit-font-smoothing: antialiased;
 
   &:hover {
-    border-color: darken($primary-color, 15%);
+    border-color: $hover-color;
   }
 
 }
@@ -29,7 +29,7 @@
   font-size: .8em;
   margin-left: 10px;
   &:hover{
-    border: 1px solid #FFF;
+    border-color: $hover-color;
   }
 }
 

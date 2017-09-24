@@ -33,21 +33,25 @@ ssh-keygen -t rsa -C "worldkingma@gmail.com"
 
 > 如果出现光标闪烁,接着连续点击三下回车
 
+
 ```id_rsa```是秘钥
+
 
 ```id_rsa_pub```是公钥
 
 
 - 拷贝公钥t添加到```GitHub```>```settings```>```SSH and GPK keys```>点击```New SSH key```
 
+
 ![添加SSH key 示例图片](https://github.com/worldkingma/worldkingma.github.io/blob/master/assets/images/article/2017-09-24_20h33_25.png)
 
 
+
 - 测试与远程仓库的连接状态
+
 ```
 ssh -T git@github.com
 ```
-
 
 出现```Hi, worldkingma! You're successfully authenticated```字样,说明与远程仓库成功建立连接.
 
@@ -87,7 +91,7 @@ ssh -T git@github.com
         |-- _site
         -- index.html
     ```
-    
+
 - ```git```可以去廖雪峰的网站查看[文档][1].
 
 

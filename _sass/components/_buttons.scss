@@ -15,22 +15,41 @@
   -webkit-font-smoothing: antialiased;
 
   &:hover {
-    border-color: $hover-color;
+    border-color: #FFF;
+    background: $hover-color;
   }
 
 }
 
 .btn-border-small {
   border: 1px solid $primary-color;
-  color: #FFF;
-  background: $primary-color;
   border-radius: 20px;
-  padding: 6px 8px;
+  padding: 6px 10px;
   font-size: .8em;
   margin-left: 10px;
-  &:hover{
-    border-color: $hover-color;
+  span{
+    transition: all 0.5s ease;
+    position: relative;
   }
+  span:before{
+    content: "←";
+    position: absolute;
+    opacity: 0;
+    left: -20px;
+    transition: all .7s ease;
+  }
+  &:hover{
+    background: $hover-color;
+    span{
+      color: #FFF;    
+      margin-left: 15px;
+    }
+    span:before{
+      opacity: 1;
+      left: -15px;
+    }
+  }
+  
 }
 
 .btn-secondary {

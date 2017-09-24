@@ -22,10 +22,15 @@
 
 .btn-border-small {
   border: 1px solid $primary-color;
+  color: #FFF;
+  background: $primary-color;
   border-radius: 20px;
   padding: 6px 8px;
   font-size: .8em;
   margin-left: 10px;
+  &:hover{
+    border: 1px solid #FFF;
+  }
 }
 
 .btn-secondary {

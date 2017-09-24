@@ -82,7 +82,7 @@ ssh-keygen -t rsa -C "worldkingma@gmail.com"
 
 - ```git```可以去廖雪峰的网站查看[文档][1].
 
-![添加SSH key 示例图片](https://github.com/worldkingma/worldkingma.github.io/blob/master/assets/images/article/2017-09-24_20h33_25.png)
+![添加SSH key 示例图片](/images/article/2017-09-24_20h33_25.png)
 
 [1]:https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 [2]:http://jekyll.com.cn/

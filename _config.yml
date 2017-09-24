@@ -1,0 +1,46 @@
+# Basic
+title: worldkingma
+creator: <a href="http://www.worldkingma.com">@worldma</a>
+
+url: "http://worldkinma.com"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: rgba(34, 34, 34, .8)
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Profile, description: My Profile, url: 'http://www.worldkingma.com'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: worldkingma
+    # duoshuo: 
+    
+# Social
+social:
+    # weibo: worldkingma
+    github: worldkingma
+    # twitter: onevcat
+    # gplus: 107108267983477358170
+    mail: worldkingma@gmail.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host

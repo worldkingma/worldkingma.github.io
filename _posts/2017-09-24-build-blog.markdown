@@ -29,7 +29,7 @@ git config --global user.email "worldkingma@gmail.com"
 ```
 ssh-keygen -t rsa -C "worldkingma@gmail.com"
 ```
-
+![](/assets/article/2017-09-24_20h33_25.png)
 
 > 如果出现光标闪烁,接着连续点击三下回车
 
@@ -82,7 +82,6 @@ ssh-keygen -t rsa -C "worldkingma@gmail.com"
 
 - ```git```可以去廖雪峰的网站查看[文档][1].
 
-![](/assets/article/2017-09-24_20h33_25.png)
 
 [1]:https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 [2]:http://jekyll.com.cn/

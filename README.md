@@ -6,7 +6,7 @@
 ```
 
 
-feature1新分支 & TEST
+强制禁用Fast forward合并模式
 
 ```
 

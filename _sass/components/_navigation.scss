@@ -20,7 +20,7 @@ nav {
       display: block;
       position: relative;
       @extend .btn;
-      border-color: #FFF;
+      border-color: $borderColor;
       color: #FFF;
       opacity: .8;
 

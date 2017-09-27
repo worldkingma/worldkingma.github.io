@@ -3,11 +3,5 @@
 
 1. [在```GitHub```构建个人网站的步骤][1]
 
-```
-
-
-强制禁用Fast forward合并模式
-
-```
 
 [1]:https://worldkingma.github.io/2017/09/build-blog/

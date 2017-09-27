@@ -6,4 +6,4 @@
 
 
 [1]:https://worldkingma.github.io/2017/09/build-blog/
-[2]:
+[2]:https://worldkingma.github.io/2017/09/as-lazy-as-possible/

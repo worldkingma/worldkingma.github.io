@@ -2,6 +2,7 @@
 layout: post
 title: Stage of build personal blog
 date: 2017-9-24 13:58:51
+excerpt: Github pages 教程,jekyll教程,jekyll构建Github pages指南
 ---
 
 

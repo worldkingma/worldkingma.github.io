@@ -2,6 +2,7 @@
 layout: post
 title: As lazy as possible
 date: 2017-9-24 13:58:51
+excerpt: 构建现代前端工程指南,前端如何偷懒,前端工程师越懒越优雅
 ---
 ## 前端开发怎么样才能做到更懒?
 ---

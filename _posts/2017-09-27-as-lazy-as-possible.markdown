@@ -1,3 +1,8 @@
+---
+layout: post
+title: As lazy as possible
+date: 2017-9-24 13:58:51
+---
 ## 前端开发怎么样才能做到更懒?
 ---
 ![](/assets/article/2017-09-27_01.png)

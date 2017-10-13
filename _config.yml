@@ -1,4 +1,5 @@
 # Basic
+# 全站范围的信息+配置,用site访问下列所有属性.
 title: worldkingma
 creator: <a href="http://www.worldkingma.com">@worldma</a>
 
@@ -34,7 +35,7 @@ comment:
     
 # Social
 social:
-    # weibo: worldkingma
+    weibo: worldkingma
     github: worldkingma
     # twitter: onevcat
     # gplus: 107108267983477358170
